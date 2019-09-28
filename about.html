@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="nav.css">
+  </head>
+    <body class="news">
+
+
+  <div class="topnav" id="myTopnav">
+    <img src="logo.jpg" id="logo"/>
+    <div class="intopnav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Product</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a class="icon" onclick="myFunction()">
+
+    </a>
+    </div>
+  </div>
+  <div class="even">
+    <p id="big">About Us</p>
+    </div>
+    <div class="odd">
+      <div class="info">
+        <p style="font-size:40px">Meet Our People</p>
+        <div style="display:inline-block;padding-right:20px;text-align:center;font-size:25px">
+          <img src="person3.jpg"/><br>
+          <p>XYZ</p>
+          <p>Manager</p>
+          </div>
+          <div style="display:inline-block;padding-right:20px;text-align:center;font-size:25px">
+            <img src="person2.jpg"/><br>
+            <p>PQR</p>
+            <p>Owner</p>
+            </div>
+    </div>
+    </div>
+    <div class="even" style="text-align:center">
+
+      <p  style="font-size:100px;text-align:center;line-height:0px">Visit Our Shop</p>
+      <a class="getb" style="text-decoration:none" href="contact.html">Get in touch</a>
+      </div>
+    </body>
+<script type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</html>

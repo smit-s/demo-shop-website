@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="nav.css">
+  </head>
+    <body class="news">
+
+
+  <div class="topnav" id="myTopnav">
+    <img src="logo.jpg" id="logo"/>
+    <div class="intopnav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Product</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a  class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+  </div>
+
+  <div class="even">
+    <p id="big">Contact Us</p>
+    </div>
+      <div class="odd">
+        <div class="package">
+          <div style="display:inline-block;vertical-align:top"class="info">
+<p style="font-size:35px">Contact Information</p>
+<div style="display:inline-block"><p>Address: &nbsp&nbsp&nbsp&nbsp<br><br><br></p></div>
+<div style="display:inline-block">
+<p>Shop no.-201,<br>
+Madhavhill,<br>
+Bhavnagar 364001</p>
+</div>
+<br>
+<br>
+<p>Phone No.:&nbsp +91 9984337229</p>
+<br>
+<br>
+<p>Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsphavenplace@gmail.com</p>
+          </div>
+
+          <div style="display:inline-block" class="form">
+            <p style="font-size:35px">Get In Touch</p><br>
+            <form  action="http://localhost:3000" method="post">
+
+                <div  class="col">
+                  <label for="fname">First Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><label for="lname">Last Name</label>
+                </div>
+
+                <div  class="col">
+                  <input style="height:35px" type="text" name="fname" id="fname" class="form-control" placeholder="Your firstname">
+                  <input style="height:35px" type="text"name="lname" id="lname" class="form-control" placeholder="Your lastname">
+                </div>
+
+
+              <div class="row">
+                <div class="col">
+                  <label for="email"><br><br>Email<br></label>
+                  <input style="height:35px;width:500px" type="text" name="email" id="email" class="form-control" placeholder="Your email address">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label for="subject"><br><br>Subject<br></label>
+                  <input style="height:35px;width:500px" type="text" name="subject" id="subject" class="form-control" placeholder="Your subject of this message">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label for="Message"><br><br>Message<br></label>
+                  <textarea style="height:100px;width:500px" name="Message" id="Message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="form-group">
+                <button class="getc" type="submit" >Send Message</button>
+                <p id="warn"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
+        <div class="even">
+          <p  style="font-size:50px;line-height:0px;" id="big">Location</p><br><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.363257535816!2d72.1450993591386!3d21.76619770251684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f5a7ea94e71f7%3A0xe3c1e980e12ce578!2sMadhav+Hill%2C+Waghawadi+Rd%2C+Takhteshwar%2C+Nanbhawadi%2C+Takhteshwar+Plots%2C+Bhavnagar%2C+Gujarat+364002!5e0!3m2!1sen!2sin!4v1543566467830" width="600" height="450" frameborder="0" style="border:0;padding-left:100px" allowfullscreen></iframe>
+        </div>
+        <div class="odd" style="text-align:center">
+
+          <p  style="font-size:100px;text-align:center;line-height:0px">Visit Our Shop</p>
+          <a class="getc" style="text-decoration:none" href="contact.html">Get in touch</a>
+          </div>
+    </body>
+<script type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</html>
